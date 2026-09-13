@@ -5,7 +5,7 @@
 [![LaTeX](https://img.shields.io/badge/LaTeX-The%20UMAP%20Journal-blue.svg)](https://www.comap.com/periodicals/the-umap-journal)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Status:** Manuscript submitted to *The UMAP Journal* (Vol. 47, No. 1, 2026); currently under review. Not yet accepted.
+**Status:** Manuscript submitted to *The UMAP Journal* (Vol. 47, No. 3, 2026); currently under review. Not yet accepted.
 
 This repository contains the numerical implementation, figure-generation scripts, and LaTeX manuscript for the mathematical modeling study on the shape optimization of the Spanish *botijo*.
 
