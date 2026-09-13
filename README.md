@@ -66,16 +66,6 @@ Generate Figures
 ```bash
 python generate-botijo-colab-figures.py
 ```
-
-Compile LaTeX Manuscript
-
-```bash
-pdflatex botijo-umap-manuscript.tex
-bibtex  botijo-umap-manuscript
-pdflatex botijo-umap-manuscript.tex
-pdflatex botijo-umap-manuscript.tex
-```
-
 ---
 
 💡 Key Results
