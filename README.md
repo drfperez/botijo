@@ -102,7 +102,6 @@ Physical Mechanisms of the Optimal Shape
 1. Zubizarreta, I., and G. Pinto. 1995. "The Botijo: A Traditional Method of Chilling Water." Chemical Engineering Education 29 (2): 104–108.
 2. Ortega-Casanova, J., M. Ortega-Cortés, and P. Cortés-Carretero. 2021. "A Primitive Method for Cooling Water: Does the Shape Matter?" Case Studies in Thermal Engineering 26: 101022. https://doi.org/10.1016/j.csite.2021.101022
 
-⚠️ Verification Note: Both entries should be cross-checked against the actual published versions (author initials, journal volume/issue, page ranges, and DOI). In the manuscript, ensure that the .bib keys used in \cite{...} commands match the entries in references.bib exactly; a mismatch is the most common cause of citations not rendering in the compiled PDF.
 
 ---
 
