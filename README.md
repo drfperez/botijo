@@ -77,18 +77,21 @@ python generate-botijo-colab-figures.py
 
 *Convention: percentages are relative to the baseline vessel's cooling time, computed as $100 \times (t_{\text{baseline}} - t_{\text{vessel}})/t_{\text{baseline}}$. Positive = faster cooling than the baseline; negative = slower. "—" marks the self-comparison.*
 
+## 💡 Key Results
+
+| Vessel Geometry | Cooling Time (39 °C → 25 °C) | Faster than Cylinder | Faster than Sphere |
+| :--- | :---: | :---: | :---: |
+| **Cylinder** (R<sub>c</sub> = 0.071 m) | 3.31 h | — (baseline) | +17.0% |
+| **Truncated Sphere** (R<sub>s</sub> = 0.100 m) | 3.99 h | −20.5% | — (baseline) |
+| **Optimal Botijo** (r<sub>b</sub>* = 0.02 m, r<sub>M</sub>* = 0.126 m, n* = 4.0) | **2.86 h** | **+13.6%** | **+28.3%** |
+
+*Convention: percentages are relative to the baseline vessel's cooling time — positive means the vessel cools faster than the baseline, negative means slower. "—" marks the self-comparison.*
+
 ### Physical Mechanisms of the Optimal Shape
 
-- **Narrow Base** ($r_b = 0.02\ \text{m}$): Minimizes dry-wall surface area near the bottom and isolates the base when resting on a table.
-- **Wide Belly** ($r_M = 0.126\ \text{m}$): Maximizes wetted surface area $S$ during early cooling when water mass is highest, accelerating phase-change heat removal.
-- **Narrow Neck** ($n = 4.0$): Restricts upper dry-wall area $D$ as the liquid level drops, minimizing parasitic heat gain from ambient air.
-
-
-Physical Mechanisms of the Optimal Shape
-
-· Narrow Base ($r_b = 0.02\ \text{m}$): Minimizes dry-wall surface area near the bottom and isolates the base when resting on a table.
-· Wide Belly ($r_M = 0.126\ \text{m}$): Maximizes wetted surface area $S$ during early cooling when water mass is highest, accelerating phase-change heat removal.
-· Narrow Neck ($n = 4.0$): Restricts upper dry-wall area $D$ as the liquid level drops, minimizing parasitic heat gain from ambient air.
+- **Narrow Base** (r<sub>b</sub> = 0.02 m): Minimizes dry-wall surface area near the bottom and isolates the base when resting on a table.
+- **Wide Belly** (r<sub>M</sub> = 0.126 m): Maximizes wetted surface area S during early cooling when water mass is highest, accelerating phase-change heat removal.
+- **Narrow Neck** (n = 4.0): Restricts upper dry-wall area D as the liquid level drops, minimizing parasitic heat gain from ambient air.
 
 ---
 
