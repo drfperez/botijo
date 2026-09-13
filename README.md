@@ -69,11 +69,13 @@ python generate-botijo-colab-figures.py
 ---
 ## 💡 Key Results
 
-| Vessel Geometry | Cooling Time ($39\,^\circ\text{C} \to 25\,^\circ\text{C}$) | Gain vs. Cylinder | Gain vs. Sphere |
+| Vessel Geometry | Cooling Time ($39\,^\circ\text{C} \to 25\,^\circ\text{C}$) | Faster than Cylinder | Faster than Sphere |
 | :--- | :---: | :---: | :---: |
-| **Cylinder** ($R_c = 0.071\ \text{m}$) | $3.31\ \text{h}$ | — | $-17.1\%$ |
-| **Truncated Sphere** ($R_s = 0.100\ \text{m}$) | $3.99\ \text{h}$ | $-20.6\%$ | — |
-| **Optimal Botijo** ($r_b^{*} = 0.02\ \text{m}$, $r_M^{*} = 0.126\ \text{m}$, $n^{*} = 4.0$) | **$2.86\ \text{h}$** | **$+13.4\%$** | **$+28.2\%$** |
+| **Cylinder** ($R_c = 0.071\ \text{m}$) | $3.31\ \text{h}$ | — (baseline) | $+17.0\%$ |
+| **Truncated Sphere** ($R_s = 0.100\ \text{m}$) | $3.99\ \text{h}$ | $-20.5\%$ | — (baseline) |
+| **Optimal Botijo** ($r_b^{*} = 0.02\ \text{m}$, $r_M^{*} = 0.126\ \text{m}$, $n^{*} = 4.0$) | **$2.86\ \text{h}$** | **$+13.6\%$** | **$+28.3\%$** |
+
+*Convention: percentages are relative to the baseline vessel's cooling time, computed as $100 \times (t_{\text{baseline}} - t_{\text{vessel}})/t_{\text{baseline}}$. Positive = faster cooling than the baseline; negative = slower. "—" marks the self-comparison.*
 
 ### Physical Mechanisms of the Optimal Shape
 
