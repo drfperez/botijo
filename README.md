@@ -67,13 +67,20 @@ Generate Figures
 python generate-botijo-colab-figures.py
 ```
 ---
+## 💡 Key Results
 
-💡 Key Results
+| Vessel Geometry | Cooling Time ($39\,^\circ\text{C} \to 25\,^\circ\text{C}$) | Gain vs. Cylinder | Gain vs. Sphere |
+| :--- | :---: | :---: | :---: |
+| **Cylinder** ($R_c = 0.071\ \text{m}$) | $3.31\ \text{h}$ | — | $-17.1\%$ |
+| **Truncated Sphere** ($R_s = 0.100\ \text{m}$) | $3.99\ \text{h}$ | $-20.6\%$ | — |
+| **Optimal Botijo** ($r_b^{*} = 0.02\ \text{m}$, $r_M^{*} = 0.126\ \text{m}$, $n^{*} = 4.0$) | **$2.86\ \text{h}$** | **$+13.4\%$** | **$+28.2\%$** |
 
-Vessel Geometry Cooling Time ($39\,^\circ\text{C} \to 25\,^\circ\text{C}$) Gain vs. Cylinder Gain vs. Sphere
-Cylinder ($R_c = 0.071\ \text{m}$) $3.31\ \text{h}$ — $-17.1\%$
-Truncated Sphere ($R_s = 0.100\ \text{m}$) $3.99\ \text{h}$ $-20.6\%$ —
-Optimal Botijo ($r_b^{*} = 0.02\ \text{m}$, $r_M^{*} = 0.126\ \text{m}$, $n^{*} = 4.0$) $2.86\ \text{h}$ $+13.4\%$ $+28.2\%$
+### Physical Mechanisms of the Optimal Shape
+
+- **Narrow Base** ($r_b = 0.02\ \text{m}$): Minimizes dry-wall surface area near the bottom and isolates the base when resting on a table.
+- **Wide Belly** ($r_M = 0.126\ \text{m}$): Maximizes wetted surface area $S$ during early cooling when water mass is highest, accelerating phase-change heat removal.
+- **Narrow Neck** ($n = 4.0$): Restricts upper dry-wall area $D$ as the liquid level drops, minimizing parasitic heat gain from ambient air.
+
 
 Physical Mechanisms of the Optimal Shape
 
