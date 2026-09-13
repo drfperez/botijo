@@ -28,10 +28,6 @@ By representing the vessel as a unimodal surface of revolution and coupling vapo
 ```text
 .
 ├── generate-botijo-colab-figures.py  # Python script (Colab/local) to generate 300 DPI vector PDF figures
-├── botijo-umap-manuscript.tex        # Full LaTeX manuscript source file
-├── botijo-umap-manuscript.pdf        # Compiled submission PDF (The UMAP Journal format; 11 pp.)
-├── umapprinttexshop2025web.sty       # Official UMAP Journal LaTeX style package
-├── references.bib                    # BibTeX database file (Chicago author-date)
 └── README.md                         # Project documentation
 ```
 
