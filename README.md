@@ -1,10 +1,9 @@
 
 # Why Does a Botijo Have Its Traditional Shape? 🏺
 ### A Mathematical Modeling Study of Evaporative Cooling
-
-https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/github/drfperez/botijo/blob/main/generate-botijo-colab-figures.py)
-https://img.shields.io/badge/LaTeX-The%20UMAP%20Journal-blue.svg](https://www.comap.com/periodicals/the-umap-journal)
-https://img.shields.io/badge/License-MIT-yellow.svg](https://opensource.org/licenses/MIT)
+[https://colab.research.google.com/assets/colab-badge.svg](https://colab.research.google.com/github/drfperez/botijo/blob/main/generate-botijo-colab-figures.py)
+[https://img.shields.io/badge/LaTeX-The%20UMAP%20Journal-blue.svg](https://www.comap.com/periodicals/the-umap-journal)
+[https://img.shields.io/badge/License-MIT-yellow.svg](https://opensource.org/licenses/MIT)
 
 **Status:** Manuscript submitted to *The UMAP Journal* (Vol. 47, No. 1, 2026); currently under review. Not yet accepted.
 
