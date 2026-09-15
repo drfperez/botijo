@@ -27,14 +27,14 @@ By representing the vessel as a unimodal surface of revolution and coupling vapo
 
 ```text
 .
-├── botijofigures.ipynb  # Python script (Colab/local) to generate 300 DPI vector PDF figures
+├── Botijo_Figures.ipynb  # Python script (Colab/local) to generate 300 DPI vector PDF figures
 └── README.md                         # Project documentation
 ```
 ---
 
 📊 Generated Publication Figures
 
-Running generate-botijo-colab-figures.py outputs three vector PDF figures at 300 DPI using Matplotlib (pdf.fonttype = 42):
+Running Botijo_Figures.py outputs three vector PDF figures at 300 DPI using Matplotlib (pdf.fonttype = 42):
 
 1. botijo_schematic_definitiu.pdf — Schematic geometry illustrating profile $r(z)$, water level $h(t)$, wetted wall area $S$, dry wall area $D$, and free liquid surface $A$.
 2. botijo_optimal_shape.pdf — Optimal profile ($t_f = 2.86\ \text{h}$) compared against equal-volume cylindrical ($3.31\ \text{h}$) and spherical ($3.99\ \text{h}$) baselines, alongside the wheel-throwing bound ($r_M \le 0.15\ \text{m}$).
@@ -44,26 +44,12 @@ Running generate-botijo-colab-figures.py outputs three vector PDF figures at 300
 
 🚀 How to Run
 
-1. Run in Google Colab
+Run in Google Colab
 
-Click the Open in Colab badge above or open generate-botijo-colab-figures.py directly in Google Colab to execute and download all publication-ready PDF figures.
+Click the Open in Colab badge above or open Botijo_Figures.ipynb directly in Google Colab to execute and download all publication-ready PDF figures.
 
-2. Run Locally
-
-Prerequisites
-
-Python 3.8+ and the required dependencies:
-
-```bash
-pip install numpy matplotlib
-```
-
-Generate Figures
-
-```bash
-python generate-botijo-colab-figures.py
-```
 ---
+
 
 ## 💡 Key Results
 
