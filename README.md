@@ -27,7 +27,7 @@ By representing the vessel as a unimodal surface of revolution and coupling vapo
 
 ```text
 .
-├── generate-botijo-colab-figures.py  # Python script (Colab/local) to generate 300 DPI vector PDF figures
+├── botijofigures.ipynb  # Python script (Colab/local) to generate 300 DPI vector PDF figures
 └── README.md                         # Project documentation
 ```
 ---
